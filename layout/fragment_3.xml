@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="CONTACT DETAILS"
+            android:textAlignment="gravity"
+            android:textColor="#EA0909"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.403"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="360dp"
+            android:layout_height="604dp"
+            android:text="Dear Ceramic Community Member,&#xA;&#xA;We want to make sure you have all the resources you need to make the most out of your experience with Ceramic. Whether you have a question, need assistance, or simply want to share your feedback, our dedicated support team is here to help!&#xA;&#xA;Here&apos;s how you can reach us:&#xA;&#xA;Email: Drop us an email at support@ceramicapp.com with any inquiries or concerns you may have. Our support team will respond to your message promptly and provide you with the assistance you need.&#xA;In-App Support: If you&apos;re using the Ceramic app and have a question or encounter an issue while navigating the platform, you can access our in-app support feature. Simply click on the &quot;Help&quot; or &quot;Support&quot; button within the app to get in touch with us directly.&#xA;Social Media: Connect with us on social media for updates, announcements, and community interactions. You can find us on [insert social media handles] and send us a message anytime. We love hearing from our community members!&#xA;Feedback Form: Have feedback or suggestions for improving Ceramic? We&apos;d love to hear from you! Visit our website or app to fill out our feedback form and share your thoughts with us. Your input helps us make Ceramic better for everyone.&#xA;FAQs and Knowledge Base: Before reaching out to our support team, you may find the answers to your questions in our FAQs or knowledge base. Visit our website or app to access these resources and find solutions to common issues.&#xA;No matter how you choose to reach out, we&apos;re here to assist you every step of the way. Your satisfaction and success with Ceramic are our top priorities.&#xA;&#xA;Thank you for being a valued member of the Ceramic community!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

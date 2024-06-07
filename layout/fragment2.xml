@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFBFB"
+    android:textAlignment="center"
+    tools:context=".Fragment2">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="24dp"
+        android:autoText="true"
+        android:freezesText="true"
+        android:text="ABOUT US"
+        android:textAlignment="gravity"
+        android:textColor="#F80303"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="354dp"
+        android:layout_height="781dp"
+        android:text="Greetings from Ceramic,&#xA;&#xA;As you explore our app and delve into the world of ceramics, we want you to know the story behind the platform you&apos;re using. At Ceramic, our mission is to empower and inspire ceramic artists, enthusiasts, and learners worldwide by providing a comprehensive platform that celebrates the art and craft of ceramics in all its forms.&#xA;&#xA;Here&apos;s a glimpse into what Ceramic stands for:&#xA;&#xA;Passion for Ceramics: Our journey began with a shared passion for ceramics and a desire to create a space where people from all walks of life could come together to learn, create, and connect through this timeless art form.&#xA;Celebrating Diversity: We believe that ceramics is a diverse and inclusive art form that transcends cultural boundaries. Our platform celebrates this diversity by showcasing a wide range of ceramic traditions, techniques, and styles from around the globe.&#xA;Education and Inspiration: Whether you&apos;re a beginner looking to learn the basics or an experienced artist seeking new inspiration, Ceramic is here to support you every step of the way. From tutorials and tips to artist interviews and gallery showcases, we&apos;re dedicated to providing you with the resources you need to grow and thrive as a ceramic artist.&#xA;Community Building: At Ceramic, we understand the importance of community in fostering creativity and growth. That&apos;s why we&apos;ve created a vibrant online community where users can connect with fellow ceramic enthusiasts, share their work, and exchange ideas and advice.&#xA;Continuous Improvement: We&apos;re committed to constantly improving and evolving the Ceramic platform based on user feedback and technological advancements. Your input helps us ensure that Ceramic remains the ultimate destination for all things ceramics.&#xA;As you journey through Ceramic, we hope you&apos;ll feel inspired, supported, and empowered to unleash your creativity and explore the endless possibilities of ceramics.&#xA;&#xA;Thank you for being a part of our community."
+        android:textColor="#050505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

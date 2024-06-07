@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill"
+    android:background="#69CCC2"
+    android:visibility="visible"
+    tools:context=".MainActivity7"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="520dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="277dp"
+                android:background="#F8F4F4"
+                app:srcCompat="@drawable/img_4" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:text="Nestasia White Wood and Ceramic Fondue Pot, Burner, and Serving Plate Set for Snacks, Starters, Cookies, or Fruits (Set of 1 Wooden tray, 4 Plates, 4 Skewers, 1 Stand, 1 Tea light candle, 1 Fondue pot with Burner)"
+                android:textColor="#171616"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCFAF9FA"
+                android:text="BUY  107 Rs"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="231dp"
+                android:background="#FAF8F8"
+                app:srcCompat="@drawable/img_5" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="416dp"
+                android:layout_height="127dp"
+                android:text="Levin 5 X 2 Way Ball Styluses Dotting Tool Silicone Color Shaper Brushes Pen for Polymer Clay Pottery Modeling Sculpture Nail Art"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/BTN"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:text="BUY 109 Rs"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:srcCompat="@drawable/img_7" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Levin 5 X 2 Way Ball Styluses Dotting Tool Silicone Color Shaper Brushes Pen for Polymer Clay Pottery Modeling Sculpture Nail Art"
+                android:textAlignment="inherit"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:text="Related collections"
+                android:textSize="20sp"
+                android:visibility="visible"
+                app:iconTint="#EFF6F5" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                app:srcCompat="@drawable/img_8" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="BUY 110 Rs"
+                android:textDirection="inherit"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:text="MORE OPTIONS"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

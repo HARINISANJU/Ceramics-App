@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFCFC"
+    app:layoutDescription="@xml/fragment1_scene"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="347dp"
+        android:layout_height="566dp"
+        android:layout_marginTop="128dp"
+        android:text="Dear Ceramic App User,&#xA;&#xA;At Ceramic, we&apos;re committed to providing you with the best possible experience in exploring the world of ceramics. Your feedback is invaluable in helping us understand what we&apos;re doing right and where we can improve. We want to ensure that Ceramic remains your go-to destination for all things related to ceramics.&#xA;&#xA;Whether you&apos;re a seasoned ceramic artist, a hobbyist, or someone who simply appreciates the beauty of ceramic art, we want to hear from you! Your feedback helps us tailor our app to better suit your needs and preferences.&#xA;&#xA;Here are a few questions to guide your feedback:&#xA;&#xA;User Experience: How intuitive do you find the app to navigate? Are there any features that you find particularly helpful or confusing?&#xA;Content Quality: Are you satisfied with the range and quality of content available on Ceramic? Is there anything specific you&apos;d like to see more of?&#xA;Community Interaction: How do you feel about the community aspect of Ceramic? Are you engaging with other users, and if so, what has your experience been like?&#xA;Technical Issues: Have you encountered any bugs, glitches, or technical issues while using the app? If so, please provide details so we can address them promptly.&#xA;Suggestions &amp; Improvements: Do you have any ideas for how we can make Ceramic even better? Whether it&apos;s new features, improvements to existing ones, or anything else, we&apos;d love to hear your thoughts!&#xA;Your feedback is instrumental in shaping the future of Ceramic, and we&apos;re incredibly grateful for your time and input. Together, we can continue to build a vibrant and thriving community around ceramics.&#xA;&#xA;Thank you for being a part of the Ceramic family!"
+        android:textAlignment="viewStart"
+        android:textColor="#070707"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="71dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:text="RATE "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="212dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="1104dp"
+        android:scrollbarSize="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.675"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="128dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="40dp"
+        android:text="FEEDBACK"
+        android:textAlignment="gravity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F40606"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
